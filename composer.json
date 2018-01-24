@@ -21,7 +21,10 @@
         "adbario/php-dot-notation": "2.x-dev"
     },
     "autoload": {
-        "classmap": ["src/"]
+        "classmap": ["src/"],
+        "files": [
+            "autoloader.php"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
