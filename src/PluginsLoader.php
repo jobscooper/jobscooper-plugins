@@ -56,6 +56,6 @@ class PluginsLoader
 	}
 }
 
-
-$loader = new PluginsLoader();
-$loader->loadPhpBasedPlugins();
+//
+//$loader = new PluginsLoader();
+//$loader->loadPhpBasedPlugins();
