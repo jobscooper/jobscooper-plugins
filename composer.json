@@ -1,0 +1,28 @@
+{
+    "name": "jobscooper/jobscooper-plugins",
+    "type": "library",
+    "description": "Plugins to job site providers",
+    "homepage": "http://github.com/jobscooper/php-jobscooper",
+    "authors": [
+        {
+            "name": "Bryan Selner",
+            "email": "dev@recoilvelocity.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "propel/propel": "~2.0@dev",
+        "facebook/webdriver": "1.5.*",
+        "jobapis/jobs-common": "^2.0",
+        "jobapis/jobs-usajobs": "^0.2.0",
+        "monolog/monolog": "1.x-dev",
+        "guzzlehttp/guzzle": "~6.0",
+        "imangazaliev/didom": "~1.11",
+        "adbario/php-dot-notation": "2.x-dev"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
