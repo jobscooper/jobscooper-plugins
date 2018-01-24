@@ -21,6 +21,10 @@
         "adbario/php-dot-notation": "2.x-dev"
     },
     "autoload": {
+        "psr-4": {
+            "JobScooperPlugins\\": "src/"
+        },
+
         "classmap": ["src/"],
         "files": [
             "autoloader.php"

@@ -15,7 +15,7 @@
  * under the License.
  */
 
-namespace JobScooper\Plugins;
+namespace JobScooperPlugins;
 
 class PluginsLoader
 {
