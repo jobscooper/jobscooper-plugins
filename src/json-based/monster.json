@@ -64,16 +64,16 @@
             },
             {
               "Name": "Company",
-              "Selector": "div.company a",
+              "Selector": "div.company a span",
               "Index": 0,
-              "Attribute": "title",
+              "Attribute": "text",
               "Type": "CSS"
             },
             {
               "Name": "Location",
               "Selector": "div.job-specs-location p a",
               "Index": 0,
-              "Attribute": "title",
+              "Attribute": "text",
               "Type": "CSS"
             },
             {
@@ -93,11 +93,11 @@
       }
     },
     {
-    "JobSiteName": "MonsterUK",
-    "BaseURL": "https://www.monster.co.uk",
-    "SourceURL": "https://www.monster.co.uk/jobs/search/?q=***KEYWORDS***&where=***LOCATION***&client=power&cy=uk&rad=20&intcid=swoop_HeroSearch_UK",
-    "LocationType": "location-city-comma-statecode-underscores-and-dashes",
-    "CountryCodes" : ["GB"],
+      "JobSiteName": "MonsterUK",
+      "BaseURL": "https://www.monster.co.uk",
+      "SourceURL": "https://www.monster.co.uk/jobs/search/?q=***KEYWORDS***&where=***LOCATION***&client=power&cy=uk&rad=20&intcid=swoop_HeroSearch_UK",
+      "LocationType": "location-city-comma-statecode-underscores-and-dashes",
+      "CountryCodes" : ["GB"],
       "PluginExtendsClassName" : "PluginMonster"
     }
   ]
